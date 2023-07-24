@@ -22,9 +22,29 @@
   cursor: pointer;
 }
 
-.topRight{
-    display: flex;
-    align-items: center;
+.logout {
+  background-color: whitesmoke;
+  height: 40px;
+  width: 40px;
+  padding: 10px 20px;
+  right: 80px;
+  position: absolute;
+  top: 40px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 5px;
+}
+.logout-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+}
+.topRight {
+  display: flex;
+  align-items: center;
 }
 
 .topbarIconContainer {
@@ -34,24 +54,24 @@
   color: #555;
 }
 
-.topIconBadge{
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: -5px;
-    right: 0px;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
+.topIconBadge {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
 }
 
-.topAvatar{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
+.topAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
 }
